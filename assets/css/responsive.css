@@ -1,0 +1,80 @@
+@media screen and (min-width: 320px) {
+    body {
+        font-size: 1rem;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+    nav li {
+        display: inline-block;
+        padding: 0.5rem;
+    }
+
+    table {
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    input {
+        padding-right: 20rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 2rem;
+    }
+
+    header div,
+    header p,
+    header nav {
+        display: inline-block;
+        margin: 0;   
+    }
+
+    nav {
+        float: right;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    table {
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    td {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    iframe {
+        width: 50%;
+        height: 10em;
+    }
+
+    section {
+        width: 50%;
+        float: right;
+        border-radius: 20px;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    aside div {
+        display: inline-block;
+        width: 33%;
+    }
+}
